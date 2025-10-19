@@ -234,7 +234,7 @@ function Navbar({ darkMode, setDarkMode, currentUser, setCurrentPage, handleLogo
       alignItems: 'center'
     }}>
       <div style={{ cursor: 'pointer' }} onClick={() => setCurrentPage('home')}>
-        <h2 style={{ margin: 0, color: darkMode ? '#fff' : '#333' }}>🍽️ College Canteen</h2>
+        <h2 style={{ margin: 0, color: darkMode ? '#fff' : '#333' }}>🍽️ CampusEats</h2>
       </div>
       
       <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
